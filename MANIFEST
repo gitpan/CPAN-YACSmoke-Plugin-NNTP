@@ -1,0 +1,9 @@
+Changes
+Makefile.PL
+MANIFEST
+META.yml
+README
+lib/CPAN/YACSmoke/Plugin/NNTP.pm
+t/00basics.t
+t/11nntp.t
+t/90podtest.t
