@@ -11,6 +11,7 @@ WriteMakefile
                 'Carp'                  => '0',
                 'Storable'              => '0',
     },
-    'INSTALLDIRS' => 'site',
-    'PL_FILES' => {}
+    ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
+      (ABSTRACT	=> 'NNTP list plugin for Yet Another CPAN Smoke Tester',
+       AUTHOR	=> 'Barbie <barbie@cpan.org>') : ()),
 );
