@@ -2,13 +2,29 @@ package CPAN::YACSmoke::Plugin::NNTP;
 
 use strict;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 # -------------------------------------
 
 =head1 NAME
 
 CPAN::YACSmoke::Plugin::NNTP - NNTP plugin for Yet Another CPAN Smoke Tester
+
+=head1 DESCRIPTION
+
+IMPORTANT NOTES: 
+
+  1) CPAN::YACSmoke is no longer supported.
+  2) The recommend CPANPLUS smoker is now CPANPLUS-Smoker.
+  3) The NNTP feed has now been disabled. 
+  4) The CPAN Testers mailing list has now been disabled. 
+
+As such this module will be removed from CPAN in January 2011.
+
+This module provides the backend ability to access the list of current
+modules direct from the newsgroup, as posted by PAUSE.
+
+This module should be use together with CPAN::YACSmoke.
 
 =head1 SYNOPSIS
 
@@ -21,13 +37,6 @@ CPAN::YACSmoke::Plugin::NNTP - NNTP plugin for Yet Another CPAN Smoke Tester
   my @list = $foo->download_list($testrun);
 
   # (*) defaults to the last id it saw.
-
-=head1 DESCRIPTION
-
-This module provides the backend ability to access the list of current
-modules direct from the newsgroup, as posted by PAUSE.
-
-This module should be use together with CPAN::YACSmoke.
 
 =cut
 
@@ -176,8 +185,15 @@ RT: http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-YACSmoke-Plugin-NNTP
 
 =head1 SEE ALSO
 
-The CPAN Testers Website at L<http://testers.cpan.org> has information
-about the CPAN Testing Service.
+CPAN Testers Reports - L<http://www.cpantesters.org>
+
+CPAN Testers Wiki - L<http://wiki.cpantesters.org>
+
+CPAN Testers Blog - L<http://blog.cpantesters.org>
+
+CPAN Testers Development - L<http://devel.cpantesters.org>
+
+CPAN Testers Statistics - L<http://stats.cpantesters.org>
 
 For additional information, see the documentation for these modules:
 
@@ -200,13 +216,9 @@ for Miss Barbell Productions http://www.missbarbell.co.uk.
 
 =head1 COPYRIGHT AND LICENSE
 
-  Copyright (C) 2005-2007 Barbie for Miss Barbell Productions.
+  Copyright (C) 2005-2010 Barbie for Miss Barbell Productions.
 
-  This library is free software; you can redistribute it and/or 
-  modify it under the same terms as Perl itself.
-
-The full text of the licenses can be found in the Artistic file included with
-this distribution, or in perlartistic file available with your Perl 
-installation.
+  This module is free software; you can redistribute it and/or
+  modify it under the Artistic Licence v2.
 
 =cut

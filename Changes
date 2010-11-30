@@ -1,17 +1,24 @@
 Revision history for Perl extension CPAN::YACSmoke::Plugin::NNTP.
 
+0.06	30/11/2010
+        - CPAN::YACSmoke is no longer supported.
+        - The recommend CPANPLUS smoker is now CPANPLUS-Smoker.
+        - The NNTP feed has now been disabled. 
+        - The CPAN Testers mailing list has now been disabled. 
+        - This module will be removed from CPAN in January 2011.
+
 0.05	12/03/2007
-	- Attempts to create the directory where Storable file should reside,
-	  if it doesn't exist.
-	- Handwritten META.yml to conform to current specs.
-	- Changed all instances of LICENCE to LICENSE.
-	- Added META.yml test script.
-	- Added LICENSE file.
-	- Renamed the contrib directory to examples.
-	- POD/README updates.
+        - Attempts to create the directory where Storable file should reside,
+          if it doesn't exist.
+        - Handwritten META.yml to conform to current specs.
+        - Changed all instances of LICENCE to LICENSE.
+        - Added META.yml test script.
+        - Added LICENSE file.
+        - Renamed the contrib directory to examples.
+        - POD/README updates.
 
 0.04    27/03/2005
-	- Added DSLIP information
+        - Added DSLIP information
         - Added POD coverage test script
         - Updated POD
 

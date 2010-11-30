@@ -6,7 +6,6 @@ WriteMakefile
     'VERSION_FROM' => 'lib/CPAN/YACSmoke/Plugin/NNTP.pm',
     'PREREQ_PM' => {
                 'Test::More'            => 0,
-                'CPAN::YACSmoke'        => 0.03,
                 'Net::NNTP'             => 0,
                 'Carp'                  => 0,
                 'Storable'              => 0,
